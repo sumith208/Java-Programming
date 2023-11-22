@@ -3,7 +3,7 @@ public class Sample1 {
         int num = 29;
         int a = num%10;
         int b = num/10;
-        int res = (a+b) + (a*b);
+        int res = (a+b) - (a*b);
         if(res == num)
           System.out.println(num + " is special 2 digit number");
         else
